@@ -1,32 +1,32 @@
 # 🏥 Hospital Database Project
 
-## 📘 Overview
-This project represents a **Hospital Management Database** designed to store and manage data about patients, doctors, departments, and appointments.  
-It was created for **educational and analytical purposes** using **PostgreSQL**.
+## Overview
+The **Hospital Database Project** is a relational database system designed to efficiently manage hospital operations — including data about **departments, doctors, patients, and appointments**.  
+It was developed using **PostgreSQL** as part of a personal learning project focused on **SQL, PL/SQL, and Data Analytics**.
 
 ---
 
-## 🧩 Database Structure
-The database includes the following main tables:
-
-| Table Name     | Description |
-|----------------|--------------|
-| **departments** | Stores information about hospital departments |
-| **doctors**     | Contains details about doctors and their assigned departments |
-| **patients**    | Stores patient personal and contact information |
-| **appointments** | Records visits, diagnosis, and assigned doctors |
+## Objectives
+The main goal of this project is to:
+- Design a **normalized relational database** suitable for a medium-sized hospital  
+- Demonstrate **realistic data relationships** between departments, doctors, and patients  
+- Practice **SQL queries** for data analysis and reporting  
+- Provide a foundation for future **data visualization** or **ETL (Extract-Transform-Load)** projects
 
 ---
 
-## ⚙️ Technologies Used
-- 🐘 **PostgreSQL**
-- 💾 **SQL (DDL & DML)**
-- 📄 **CSV files** for sample data import
+## Database Structure
+
+| Table Name      | Description |
+|-----------------|--------------|
+| **departments** | Stores details of hospital departments (e.g., Cardiology, Neurology) |
+| **doctors**     | Contains information about doctors, their specialization, and department affiliation |
+| **patients**    | Holds patient demographic and contact details |
+| **appointments**| Tracks appointments, including date, diagnosis, and assigned doctor |
 
 ---
 
-## 📊 Features
-- Relational design with **foreign key constraints**
-- Ensures **data consistency** through referential integrity
-- Includes **realistic hospital data**
-- Ready for **data analysis and reporting**
+## Relationships
+- One **department** → many **doctors**  
+- One **doctor** → many **appointments**  
+- One **patient** → many **appointments**
