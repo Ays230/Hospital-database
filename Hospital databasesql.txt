@@ -1,0 +1,155 @@
+CREATE TABLE departments (
+    department_id SERIAL PRIMARY KEY,
+    department_name VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE doctors (
+    doctor_id SERIAL PRIMARY KEY,
+    full_name VARCHAR(100) NOT NULL,
+    specialization VARCHAR(100),
+    department_id INT REFERENCES departments(department_id)
+);
+
+CREATE TABLE patients (
+    patient_id SERIAL PRIMARY KEY,
+    full_name VARCHAR(100) NOT NULL,
+    gender VARCHAR(10),
+    birth_date DATE,
+    phone VARCHAR(50)
+);
+
+CREATE TABLE appointments (
+    appointment_id SERIAL PRIMARY KEY,
+    patient_id INT REFERENCES patients(patient_id),
+    doctor_id INT REFERENCES doctors(doctor_id),
+    appointment_date DATE NOT NULL,
+    diagnosis VARCHAR(200)
+);
+
+CREATE TABLE treatments (
+    treatment_id SERIAL PRIMARY KEY,
+    appointment_id INT REFERENCES appointments(appointment_id),
+    treatment_name VARCHAR(150),
+    COST NUMERIC(10,2)
+);
+
+SELECT * FROM departments;
+SELECT * FROM doctors;
+SELECT * FROM patients;
+SELECT * FROM appointments;
+SELECT * FROM treatments;
+
+
+DROP TABLE IF EXISTS patients;
+
+
+-- Hər şöbədə neçə həkim var?
+SELECT d.department_name, COUNT(doc.doctor_id) AS doctor_count
+FROM departments d
+LEFT JOIN doctors doc ON d.department_id = doc.department_id
+GROUP BY d.department_name
+ORDER BY doctor_count DESC;
+
+
+-- Hər həkimin ixtisası və şöbəsi
+SELECT doc.full_name AS doctor_name, doc.specialization, d.department_name
+FROM doctors doc
+JOIN departments d ON doc.department_id = d.department_id
+ORDER BY doctor_name;
+
+
+-- Hər həkimin neçə xəstəsi olub?
+SELECT doc.full_name AS doctor_name, COUNT(a.appointment_id) AS total_patients
+FROM doctors doc
+JOIN appointments a ON doc.doctor_id = a.doctor_id
+GROUP BY doc.full_name
+ORDER BY total_patients DESC;
+
+
+
+-- Hər xəstənin neçə dəfə müayinədə olunub?
+SELECT p.full_name AS patient_name, COUNT(a.appointment_id) AS visit_count
+FROM patients p
+LEFT JOIN appointments a ON p.patient_id = a.patient_id
+GROUP BY p.full_name
+ORDER BY visit_count DESC;
+
+
+
+-- Ən çox xəstə qəbul edən həkim
+SELECT doc.full_name, COUNT(a.appointment_id) AS patient_count
+FROM doctors doc
+JOIN appointments a ON doc.doctor_id = a.doctor_id
+GROUP BY doc.full_name
+ORDER BY patient_count DESC
+LIMIT 1;
+
+
+
+-- Hər diaqnoz üçün neçə dəfə rast gəlinib
+SELECT diagnosis, COUNT(*) AS diagnosis_count
+FROM appointments
+GROUP BY diagnosis
+ORDER BY diagnosis_count DESC;
+
+
+
+-- Müalicələrdən ümumi gəlir
+SELECT ROUND(SUM(COST), 2) AS total_revenue
+FROM treatments;
+
+
+
+-- Hər şöbənin gətirdiyi gəlir
+SELECT d.department_name, ROUND(SUM(t.cost), 2) AS total_revenue
+FROM treatments t
+JOIN appointments a ON t.appointment_id = a.appointment_id
+JOIN doctors doc ON a.doctor_id = doc.doctor_id
+JOIN departments d ON doc.department_id = d.department_id
+GROUP BY d.department_name
+ORDER BY total_revenue DESC;
+
+
+
+-- Ən bahalı müalicələr
+SELECT treatment_name, COST
+FROM treatments
+ORDER BY COST DESC
+LIMIT 5;
+
+-- Ən çox gəlir gətirən həkim
+SELECT doc.full_name AS doctor_name, ROUND(SUM(t.cost), 2) AS total_earned
+FROM doctors doc
+JOIN appointments a ON doc.doctor_id = a.doctor_id
+JOIN treatments t ON a.appointment_id = t.appointment_id
+GROUP BY doc.full_name
+ORDER BY total_earned DESC
+LIMIT 1;
+
+
+
+-- Ən azı 10 xəstə qəbul etmiş həkimləri tap:
+SELECT doc.full_name, COUNT(a.appointment_id) AS patient_count
+FROM doctors doc
+JOIN appointments a ON doc.doctor_id = a.doctor_id
+GROUP BY doc.full_name
+HAVING COUNT(a.appointment_id) >= 10
+ORDER BY patient_count DESC;
+
+
+
+
+-- Ən çox xəstəni qəbul edən 3 şöbə və həmin şöbələrdəki həkim sayı
+SELECT 
+    d.department_name,
+    COUNT(DISTINCT a.patient_id) AS total_patients,
+    COUNT(DISTINCT doc.doctor_id) AS total_doctors
+FROM departments d
+JOIN doctors doc ON d.department_id = doc.department_id
+JOIN appointments a ON doc.doctor_id = a.doctor_id
+GROUP BY d.department_name
+ORDER BY total_patients DESC
+LIMIT 3;
+
+
+public.appointments
