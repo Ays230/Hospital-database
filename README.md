@@ -1,4 +1,4 @@
-Hospital Database Project
+🏥 Hospital Database Project
 Overview
 
 This project represents a Hospital Management Database designed to store and manage data about patients, doctors, departments, and appointments.
