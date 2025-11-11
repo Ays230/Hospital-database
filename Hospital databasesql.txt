@@ -40,9 +40,6 @@ SELECT * FROM appointments;
 SELECT * FROM treatments;
 
 
-DROP TABLE IF EXISTS patients;
-
-
 -- Hər şöbədə neçə həkim var?
 SELECT d.department_name, COUNT(doc.doctor_id) AS doctor_count
 FROM departments d
@@ -110,12 +107,12 @@ GROUP BY d.department_name
 ORDER BY total_revenue DESC;
 
 
-
 -- Ən bahalı müalicələr
 SELECT treatment_name, COST
 FROM treatments
 ORDER BY COST DESC
 LIMIT 5;
+
 
 -- Ən çox gəlir gətirən həkim
 SELECT doc.full_name AS doctor_name, ROUND(SUM(t.cost), 2) AS total_earned
@@ -127,7 +124,6 @@ ORDER BY total_earned DESC
 LIMIT 1;
 
 
-
 -- Ən azı 10 xəstə qəbul etmiş həkimləri tap:
 SELECT doc.full_name, COUNT(a.appointment_id) AS patient_count
 FROM doctors doc
@@ -135,8 +131,6 @@ JOIN appointments a ON doc.doctor_id = a.doctor_id
 GROUP BY doc.full_name
 HAVING COUNT(a.appointment_id) >= 10
 ORDER BY patient_count DESC;
-
-
 
 
 -- Ən çox xəstəni qəbul edən 3 şöbə və həmin şöbələrdəki həkim sayı
@@ -150,6 +144,3 @@ JOIN appointments a ON doc.doctor_id = a.doctor_id
 GROUP BY d.department_name
 ORDER BY total_patients DESC
 LIMIT 3;
-
-
-public.appointments
