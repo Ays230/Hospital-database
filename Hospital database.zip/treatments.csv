@@ -1,0 +1,301 @@
+treatment_id,appointment_id,treatment_name,cost
+1,1,Astma üçün dərman,651.65
+2,2,Nevroloji terapiya,287.93
+3,3,EKQ və müalicə,641.74
+4,4,Anemiya müalicəsi,343.65
+5,5,Nevroloji terapiya,320.11
+6,6,Qastrit pəhrizi,312.05
+7,7,EKQ və müalicə,158.47
+8,8,EKQ və müalicə,261.67
+9,9,Astma üçün dərman,627.29
+10,10,Miqren müalicəsi,382.78
+11,11,Antibiotik kursu,420.07
+12,12,Allergiya müalicəsi,635.92
+13,13,Nevroloji terapiya,183.12
+14,14,Astma üçün dərman,128.97
+15,15,Qastrit pəhrizi,411.85
+16,16,Antibiotik kursu,609.37
+17,17,Antibiotik kursu,608.72
+18,18,Qastrit pəhrizi,446.66
+19,19,Qastrit pəhrizi,638.89
+20,20,Antibiotik kursu,157.3
+21,21,Antibiotik kursu,103.07
+22,22,Anemiya müalicəsi,684.39
+23,23,Anemiya müalicəsi,674.92
+24,24,Cərrahi əməliyyat,241.95
+25,25,Cərrahi əməliyyat,60.7
+26,26,Nevroloji terapiya,400.53
+27,27,Dərman təyinatı,401.12
+28,28,Allergiya müalicəsi,206.27
+29,29,Cərrahi əməliyyat,621.64
+30,30,Anemiya müalicəsi,158.9
+31,31,Allergiya müalicəsi,631.77
+32,32,Nevroloji terapiya,66.78
+33,33,Cərrahi əməliyyat,95.32
+34,34,Anemiya müalicəsi,477.76
+35,35,Antibiotik kursu,382.83
+36,36,Miqren müalicəsi,82.56
+37,37,Anemiya müalicəsi,144.46
+38,38,Dərman təyinatı,617.1
+39,39,Astma üçün dərman,650.73
+40,40,EKQ və müalicə,300.25
+41,41,Anemiya müalicəsi,31.98
+42,42,EKQ və müalicə,613.15
+43,43,Dərman təyinatı,478.96
+44,44,Miqren müalicəsi,324.04
+45,45,Astma üçün dərman,301.55
+46,46,Antibiotik kursu,422.88
+47,47,Allergiya müalicəsi,557.73
+48,48,Qastrit pəhrizi,343.5
+49,49,Astma üçün dərman,420.87
+50,50,Qastrit pəhrizi,425.08
+51,51,EKQ və müalicə,565.95
+52,52,Allergiya müalicəsi,264.73
+53,53,Cərrahi əməliyyat,456.39
+54,54,Miqren müalicəsi,83.48
+55,55,Anemiya müalicəsi,159.0
+56,56,Antibiotik kursu,294.37
+57,57,Antibiotik kursu,183.25
+58,58,Nevroloji terapiya,362.32
+59,59,Miqren müalicəsi,192.26
+60,60,Anemiya müalicəsi,521.71
+61,61,Anemiya müalicəsi,258.54
+62,62,EKQ və müalicə,205.58
+63,63,Allergiya müalicəsi,338.22
+64,64,Cərrahi əməliyyat,35.19
+65,65,Antibiotik kursu,698.79
+66,66,Antibiotik kursu,82.41
+67,67,Cərrahi əməliyyat,373.86
+68,68,Qastrit pəhrizi,396.98
+69,69,Allergiya müalicəsi,136.73
+70,70,Nevroloji terapiya,317.75
+71,71,Allergiya müalicəsi,39.95
+72,72,Anemiya müalicəsi,356.52
+73,73,Allergiya müalicəsi,337.46
+74,74,Nevroloji terapiya,501.0
+75,75,Qastrit pəhrizi,558.42
+76,76,Antibiotik kursu,696.99
+77,77,Nevroloji terapiya,236.11
+78,78,Dərman təyinatı,380.4
+79,79,EKQ və müalicə,381.35
+80,80,Dərman təyinatı,625.02
+81,81,Dərman təyinatı,430.91
+82,82,EKQ və müalicə,528.22
+83,83,Miqren müalicəsi,285.95
+84,84,Dərman təyinatı,620.57
+85,85,Anemiya müalicəsi,190.8
+86,86,EKQ və müalicə,592.65
+87,87,Nevroloji terapiya,223.45
+88,88,Astma üçün dərman,502.45
+89,89,Miqren müalicəsi,208.92
+90,90,Cərrahi əməliyyat,326.48
+91,91,Miqren müalicəsi,452.1
+92,92,Cərrahi əməliyyat,434.24
+93,93,Anemiya müalicəsi,159.77
+94,94,Allergiya müalicəsi,81.52
+95,95,Miqren müalicəsi,85.67
+96,96,Allergiya müalicəsi,232.48
+97,97,Dərman təyinatı,280.0
+98,98,Nevroloji terapiya,262.91
+99,99,Anemiya müalicəsi,390.23
+100,100,Dərman təyinatı,474.91
+101,101,Allergiya müalicəsi,570.97
+102,102,Antibiotik kursu,95.21
+103,103,Astma üçün dərman,566.96
+104,104,Antibiotik kursu,230.76
+105,105,Allergiya müalicəsi,163.41
+106,106,Cərrahi əməliyyat,130.29
+107,107,Dərman təyinatı,516.73
+108,108,Nevroloji terapiya,397.28
+109,109,Miqren müalicəsi,285.84
+110,110,Qastrit pəhrizi,351.6
+111,111,Dərman təyinatı,588.1
+112,112,Dərman təyinatı,551.47
+113,113,Dərman təyinatı,188.36
+114,114,Cərrahi əməliyyat,682.22
+115,115,Astma üçün dərman,428.24
+116,116,Antibiotik kursu,138.31
+117,117,EKQ və müalicə,162.45
+118,118,Miqren müalicəsi,132.41
+119,119,EKQ və müalicə,454.63
+120,120,Anemiya müalicəsi,603.01
+121,121,Astma üçün dərman,79.91
+122,122,Astma üçün dərman,405.58
+123,123,Cərrahi əməliyyat,228.39
+124,124,Antibiotik kursu,655.46
+125,125,Anemiya müalicəsi,138.86
+126,126,Dərman təyinatı,221.16
+127,127,Qastrit pəhrizi,610.25
+128,128,Cərrahi əməliyyat,647.69
+129,129,Cərrahi əməliyyat,477.09
+130,130,Cərrahi əməliyyat,389.48
+131,131,Miqren müalicəsi,381.61
+132,132,Allergiya müalicəsi,623.59
+133,133,Allergiya müalicəsi,447.26
+134,134,Cərrahi əməliyyat,304.34
+135,135,Antibiotik kursu,663.48
+136,136,Anemiya müalicəsi,201.95
+137,137,Allergiya müalicəsi,649.97
+138,138,Dərman təyinatı,382.24
+139,139,Cərrahi əməliyyat,632.31
+140,140,Antibiotik kursu,669.35
+141,141,Allergiya müalicəsi,294.83
+142,142,Allergiya müalicəsi,84.57
+143,143,Cərrahi əməliyyat,483.98
+144,144,Miqren müalicəsi,644.62
+145,145,Astma üçün dərman,500.78
+146,146,Nevroloji terapiya,477.4
+147,147,Anemiya müalicəsi,401.75
+148,148,Allergiya müalicəsi,491.03
+149,149,Nevroloji terapiya,387.47
+150,150,Anemiya müalicəsi,544.75
+151,151,Dərman təyinatı,390.7
+152,152,Cərrahi əməliyyat,133.18
+153,153,Astma üçün dərman,593.75
+154,154,Nevroloji terapiya,287.24
+155,155,Antibiotik kursu,108.05
+156,156,Astma üçün dərman,300.5
+157,157,Nevroloji terapiya,213.28
+158,158,Nevroloji terapiya,693.35
+159,159,Cərrahi əməliyyat,95.33
+160,160,Astma üçün dərman,677.46
+161,161,Antibiotik kursu,251.78
+162,162,Nevroloji terapiya,374.83
+163,163,Anemiya müalicəsi,606.87
+164,164,Nevroloji terapiya,170.44
+165,165,EKQ və müalicə,439.38
+166,166,Qastrit pəhrizi,369.86
+167,167,EKQ və müalicə,677.63
+168,168,Dərman təyinatı,200.84
+169,169,Anemiya müalicəsi,267.31
+170,170,Anemiya müalicəsi,261.97
+171,171,Anemiya müalicəsi,386.9
+172,172,Qastrit pəhrizi,641.24
+173,173,Dərman təyinatı,440.53
+174,174,EKQ və müalicə,492.57
+175,175,Astma üçün dərman,71.57
+176,176,Anemiya müalicəsi,451.71
+177,177,Dərman təyinatı,342.3
+178,178,Nevroloji terapiya,118.9
+179,179,Astma üçün dərman,235.09
+180,180,Antibiotik kursu,417.23
+181,181,Cərrahi əməliyyat,108.58
+182,182,Nevroloji terapiya,237.31
+183,183,Cərrahi əməliyyat,289.14
+184,184,Antibiotik kursu,36.15
+185,185,Qastrit pəhrizi,414.68
+186,186,Anemiya müalicəsi,296.41
+187,187,Nevroloji terapiya,129.08
+188,188,Allergiya müalicəsi,72.36
+189,189,Miqren müalicəsi,651.47
+190,190,Nevroloji terapiya,186.93
+191,191,EKQ və müalicə,691.28
+192,192,Anemiya müalicəsi,185.81
+193,193,Qastrit pəhrizi,671.36
+194,194,Astma üçün dərman,355.21
+195,195,Astma üçün dərman,61.87
+196,196,Dərman təyinatı,112.51
+197,197,EKQ və müalicə,220.27
+198,198,Anemiya müalicəsi,379.63
+199,199,EKQ və müalicə,460.89
+200,200,Anemiya müalicəsi,493.28
+201,201,Qastrit pəhrizi,451.96
+202,202,Dərman təyinatı,650.95
+203,203,Cərrahi əməliyyat,184.29
+204,204,Antibiotik kursu,637.9
+205,205,Nevroloji terapiya,409.26
+206,206,Nevroloji terapiya,427.25
+207,207,Nevroloji terapiya,472.44
+208,208,Miqren müalicəsi,129.58
+209,209,Allergiya müalicəsi,622.88
+210,210,Cərrahi əməliyyat,546.09
+211,211,Nevroloji terapiya,681.22
+212,212,Cərrahi əməliyyat,513.83
+213,213,Astma üçün dərman,627.28
+214,214,Anemiya müalicəsi,438.36
+215,215,Dərman təyinatı,680.93
+216,216,Nevroloji terapiya,482.96
+217,217,Allergiya müalicəsi,644.33
+218,218,Qastrit pəhrizi,678.91
+219,219,Allergiya müalicəsi,364.3
+220,220,Allergiya müalicəsi,516.29
+221,221,Qastrit pəhrizi,569.25
+222,222,Cərrahi əməliyyat,350.61
+223,223,Astma üçün dərman,421.63
+224,224,Astma üçün dərman,57.6
+225,225,Astma üçün dərman,569.66
+226,226,EKQ və müalicə,38.91
+227,227,Anemiya müalicəsi,579.1
+228,228,EKQ və müalicə,468.0
+229,229,Anemiya müalicəsi,50.24
+230,230,Antibiotik kursu,698.96
+231,231,Qastrit pəhrizi,146.82
+232,232,Dərman təyinatı,494.89
+233,233,Allergiya müalicəsi,177.23
+234,234,Dərman təyinatı,257.82
+235,235,EKQ və müalicə,377.75
+236,236,Anemiya müalicəsi,486.47
+237,237,Qastrit pəhrizi,391.6
+238,238,Anemiya müalicəsi,609.78
+239,239,Astma üçün dərman,254.38
+240,240,Astma üçün dərman,555.65
+241,241,Cərrahi əməliyyat,258.21
+242,242,Anemiya müalicəsi,302.13
+243,243,Qastrit pəhrizi,554.19
+244,244,Anemiya müalicəsi,615.64
+245,245,Miqren müalicəsi,688.88
+246,246,Miqren müalicəsi,319.23
+247,247,Astma üçün dərman,180.83
+248,248,Antibiotik kursu,96.52
+249,249,EKQ və müalicə,337.9
+250,250,Astma üçün dərman,333.75
+251,251,Astma üçün dərman,132.74
+252,252,Dərman təyinatı,40.46
+253,253,Miqren müalicəsi,671.7
+254,254,Astma üçün dərman,207.79
+255,255,Astma üçün dərman,584.63
+256,256,Astma üçün dərman,115.49
+257,257,Dərman təyinatı,553.27
+258,258,Nevroloji terapiya,413.74
+259,259,Qastrit pəhrizi,434.45
+260,260,Anemiya müalicəsi,581.77
+261,261,Qastrit pəhrizi,145.96
+262,262,Antibiotik kursu,514.04
+263,263,Astma üçün dərman,103.85
+264,264,Nevroloji terapiya,512.89
+265,265,Qastrit pəhrizi,621.05
+266,266,Allergiya müalicəsi,121.59
+267,267,Anemiya müalicəsi,73.46
+268,268,Astma üçün dərman,512.3
+269,269,Astma üçün dərman,425.29
+270,270,Anemiya müalicəsi,133.96
+271,271,Allergiya müalicəsi,483.8
+272,272,Nevroloji terapiya,447.75
+273,273,Anemiya müalicəsi,185.88
+274,274,Antibiotik kursu,321.14
+275,275,Astma üçün dərman,154.63
+276,276,Dərman təyinatı,619.09
+277,277,EKQ və müalicə,534.87
+278,278,Qastrit pəhrizi,661.5
+279,279,Miqren müalicəsi,149.11
+280,280,Cərrahi əməliyyat,356.99
+281,281,Antibiotik kursu,427.71
+282,282,Anemiya müalicəsi,36.29
+283,283,Anemiya müalicəsi,426.8
+284,284,Qastrit pəhrizi,39.11
+285,285,Allergiya müalicəsi,684.77
+286,286,Allergiya müalicəsi,561.34
+287,287,Dərman təyinatı,69.61
+288,288,Miqren müalicəsi,559.01
+289,289,Antibiotik kursu,646.4
+290,290,Antibiotik kursu,668.14
+291,291,Allergiya müalicəsi,285.43
+292,292,EKQ və müalicə,447.81
+293,293,Astma üçün dərman,358.15
+294,294,EKQ və müalicə,65.04
+295,295,EKQ və müalicə,91.92
+296,296,Allergiya müalicəsi,155.92
+297,297,Astma üçün dərman,354.06
+298,298,Qastrit pəhrizi,350.18
+299,299,Cərrahi əməliyyat,33.18
+300,300,Allergiya müalicəsi,699.61

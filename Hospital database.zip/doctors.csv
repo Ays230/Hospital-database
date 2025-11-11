@@ -1,0 +1,21 @@
+doctor_id,full_name,specialization,department_id
+1,Rəşad Əliyev,Terapist,5
+2,Aysun Əliyev,Nevroloq,1
+3,Nərmin Qasımov,Nevroloq,5
+4,Ləman Hacıyev,Terapist,2
+5,Sevinc Əliyev,Oftalmoloq,6
+6,Zümrüd Həsənli,Cərrah,4
+7,Əli Quliyev,Oftalmoloq,3
+8,Nigar Qasımova,Oftalmoloq,6
+9,Elvin Rəhimli,Pediatr,4
+10,Tunar Quliyev,Oftalmoloq,3
+11,Rauf Əliyev,Pediatr,2
+12,Ramin Hacıyev,Terapist,3
+13,Nigar Hüseynov,Kardioloq,5
+14,Ləman Rəhimli,Oftalmoloq,2
+15,Rəşad Hacıyev,Cərrah,5
+16,Ramin Rəhimli,Cərrah,5
+17,Nihad Məmmədov,Cərrah,1
+18,Murad Hacıyev,Nevroloq,3
+19,Zümrüd Qasımov,Pediatr,4
+20,Rəşad Hacıyev,Pediatr,1
